@@ -42,7 +42,7 @@ public class CompareExcel3 {
 				// For loop for row staring from first row to last row
 				for (int i = 1; i < rowCount1; i++) {
 					
-					// getting total column number for specific row for both sheet
+					// getting total column number for specific row for both sheet 
 					int colCount1 = sh1.getRow(i).getLastCellNum();
 					int colCount2 = sh2.getRow(i).getLastCellNum();
 					
